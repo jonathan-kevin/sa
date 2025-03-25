@@ -1,14 +1,14 @@
 export default defineAppConfig({
   global: {
-    meetingLink: 'https://cal.com/hugorcd/15min',
+    meetingLink: 'https://www.crazyttownballers.com',
     available: true,
   },
   profile: {
-    name: 'Hugo Richard',
+    name: 'Jonathan Kevin',
     job: 'Frontend Architect and Designer',
-    email: 'contact@hrcd.fr',
-    phone: '(+33) 6 21 56 22 18',
-    picture: 'https://avatars.githubusercontent.com/u/71938701?v=4',
+    email: 'contact@crazyttownballers.com',
+    phone: '(+46) 70 12 34 56',
+    picture: 'https://avatars.githubusercontent.com/u/114663162?v=4',
   },
   socials: {
     github: 'https://github.com/HugoRCD',
