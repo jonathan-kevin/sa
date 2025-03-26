@@ -4,10 +4,6 @@
 @import "./animation.css";
 
 @theme {
-  --font-newsreader: "Newsreader", serif;
-  --font-geist: "Geist", sans-serif;
-  --font-mono: "Geist Mono", sans-serif;
-
   --color-main: var(--ui-bg);
   --color-secondary: var(--color-secondary);
   --color-card: var(--color-card);
@@ -76,50 +72,50 @@ html, body, #__nuxt, #__layout {
 }
 
 .writing {
-  @apply font-geist text-neutral-700/90 dark:text-neutral-300 leading-relaxed;
+  @apply text-neutral-700/90 dark:text-neutral-300 leading-relaxed;
 
   h1 {
-    @apply text-2xl sm:text-3xl text-zinc-900 dark:text-zinc-100 italic font-[600] mb-6 mt-8;
+    @apply mt-8 mb-6 text-zinc-900 dark:text-zinc-100 text-2xl sm:text-3xl italic;
   }
 
   h2 {
-    @apply text-xl sm:text-2xl text-zinc-900 dark:text-zinc-100 mb-4 mt-8;
+    @apply mt-8 mb-4 text-zinc-900 dark:text-zinc-100 text-xl sm:text-2xl;
   }
 
   h3 {
-    @apply text-lg sm:text-xl text-zinc-900 dark:text-zinc-100 mb-4 mt-6;
+    @apply mt-6 mb-4 text-zinc-900 dark:text-zinc-100 text-lg sm:text-xl;
   }
 
   h4 {
-    @apply text-base sm:text-lg text-zinc-900 dark:text-zinc-100 mb-4 mt-6;
+    @apply mt-6 mb-4 text-zinc-900 dark:text-zinc-100 text-base sm:text-lg;
   }
 
   h5 {
-    @apply text-base text-zinc-900 dark:text-zinc-100 mb-4 mt-6;
+    @apply mt-6 mb-4 text-zinc-900 dark:text-zinc-100 text-base;
   }
 
   p {
-    @apply mb-4 mt-0;
+    @apply mt-0 mb-4;
   }
 
   a {
-    @apply text-blue-500 dark:text-blue-500 underline hover:text-blue-600;
+    @apply text-blue-500 hover:text-blue-600 dark:text-blue-500 underline;
   }
 
   pre {
-    @apply text-sm sm:text-base text-zinc-900 dark:text-zinc-100 my-4 p-4 bg-neutral-100 dark:bg-neutral-800 rounded-lg overflow-x-auto;
+    @apply bg-neutral-100 dark:bg-neutral-800 my-4 p-4 rounded-lg overflow-x-auto text-zinc-900 dark:text-zinc-100 text-sm sm:text-base;
   }
 
   code {
-    @apply text-zinc-900 dark:text-zinc-100 text-sm px-1.5 py-0.5 bg-neutral-100 dark:bg-neutral-800 rounded;
+    @apply bg-neutral-100 dark:bg-neutral-800 px-1.5 py-0.5 rounded text-zinc-900 dark:text-zinc-100 text-sm;
   }
 
   strong {
-    @apply text-neutral-900 dark:text-neutral-100 font-[500];
+    @apply text-neutral-900 dark:text-neutral-100;
   }
 
   ul, ol {
-    @apply mb-4 mt-4 pl-6;
+    @apply mt-4 mb-4 pl-6;
   }
 
   li {
@@ -127,7 +123,7 @@ html, body, #__nuxt, #__layout {
   }
 
   blockquote {
-    @apply pl-4 border-l-4 border-neutral-300 dark:border-neutral-700 my-4 italic;
+    @apply my-4 pl-4 border-neutral-300 dark:border-neutral-700 border-l-4 italic;
   }
 
   hr {
@@ -143,6 +139,6 @@ html, body, #__nuxt, #__layout {
   }
 
   figcaption {
-    @apply text-sm text-neutral-500 dark:text-neutral-400 mt-2;
+    @apply mt-2 text-neutral-500 dark:text-neutral-400 text-sm;
   }
 }
